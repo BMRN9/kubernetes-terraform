@@ -8,7 +8,7 @@ trigger:
 
 pool:
   #vmImage: ubuntu-latest
-  name: Self-agent-pool
+  name: self-host-agent
 
 steps:
 - script: echo Hello, world!
